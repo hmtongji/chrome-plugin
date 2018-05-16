@@ -21,4 +21,4 @@ git commit -m 'deploy'
 
 
 # 发布到git@github.com:hmtongji/chrome-plugin.git master:gh-pages
-git push -f git@github.com:hmtongji/chrome-plugin.git master:gh-pages
+git push -f origin master:gh-pages
