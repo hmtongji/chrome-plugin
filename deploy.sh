@@ -3,11 +3,6 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-# 提交修改到github
-git add -A
-git commit -m 'update'
-git push
-
 # 生成静态文件
 gitbook build
 
@@ -21,4 +16,4 @@ git commit -m 'deploy'
 
 
 # 发布到git@github.com:hmtongji/chrome-plugin.git master:gh-pages
-git push -f origin master:gh-pages
+git push -f https://github.com/hmtongji/chrome-plugin.git master:gh-pages
